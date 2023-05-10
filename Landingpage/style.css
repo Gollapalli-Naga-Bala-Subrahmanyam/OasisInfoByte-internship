@@ -1,0 +1,123 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Sacramento&family=Sono&family=Ubuntu&display=swap');
+header {
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 10px;
+    height: 70px;
+    display: flex;
+    align-items: center;
+    }
+    header * {
+    display: inline;
+    }
+    header li {
+    margin: 15px;
+
+    }
+    header li a {
+    color:#FB2576;
+    text-decoration:underline;
+    }
+    form.example button {
+        width: 20%;
+        padding: 10px;
+        background: #2196F3;
+        color: white;
+        font-size: 17px;
+        border: 1px solid grey;
+        border-left: none;
+        cursor: pointer;
+      }
+
+      form.example button:hover {
+        background: #0b7dda;
+      }
+
+      form.example::after {
+        content: "";
+        clear: both;
+        display: table;
+      }
+body{
+   background:rgb(200, 173, 123);
+    background-repeat : no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    height: 125vh;
+    margin-top: 50px;
+    font-family: 'Montserrat', sans-serif;
+}
+h1{
+    color:#1A0000;
+   padding-top: 50px;
+   padding-right: 9%;
+   font-family: "Ubuntu",sans-serif;
+}
+h3{
+    color:#FB2576;
+    padding-right: 9%;
+
+    font-family: "Ubuntu",sans-serif;
+}
+div{
+  align-items: center;
+  display: flex;
+  margin-left: 100px;
+  padding-right: 15%;
+}
+div.logo{
+  height:70px;
+  width:120px;
+  border-radius: 50px;
+  border-collapse: separate;
+}
+img{
+    padding-right: 38%;
+    padding-left:42% ;
+    padding-top : 3%;
+    width :200px;
+    height :200px;
+    align-items: center;
+    display :block;
+}
+.logo{
+  height: 70px;
+  width:100px;
+  padding-left: 40%;
+}
+p{
+  display:flex;
+  flex-wrap: wrap;
+  align-content:center;
+  padding-left:35%;
+}
+  button{
+    width: 100px;
+    height:50px;
+    background-color:#7286D3;
+    color:white;
+    border-radius: 30%;
+  }
+  .fa {
+    padding: 10px;
+    font-size: 30px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 2px;
+  }
+  .fa-instagram {
+    background: #125688;
+    color: white;
+  }
+
+  .fa-pinterest {
+    background: #cb2027;
+    color: white;
+  }
+
+  .fa-twitter {
+    background: #55ACEE;
+    color: white;
+  }
