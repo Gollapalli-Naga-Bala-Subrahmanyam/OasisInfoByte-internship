@@ -1,0 +1,167 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Orbitron&family=Sacramento&family=Dancing+Script&family=Ubuntu&familyMaven+Pro&display=swap');
+body{
+  font-style:italic;
+  font-family: "Ubuntu",sans-serif;
+  /*background-color: #DFFFD8;*/
+    background-color: #F9F2ED;
+}
+#name{
+  font-family: "Sacramento",sans-serif;
+}
+#first{
+  background-image: url("drk.webp");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height:60%;
+  width:100%
+}
+nav{
+  margin-top: 10px;
+  margin-bottom: 10px;
+  margin-left: 10px;
+}
+a{
+  padding:4px;
+}
+h2{
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+h1{
+  font-family: "Orbitron",sans-serif;
+}
+h3{
+  font-family:'Ubuntu',sans-serif;
+}
+img{
+  margin-top: 20px;
+  width:350px;
+   height:480px;
+}
+#projects{
+  background-position: black;
+}
+#pr1:hover{
+  background-color: #FFE1E1;
+}
+#pr2:hover{
+  background-color: #E1FFB1;
+}
+#pr3:hover{
+  background-color: #FFF89A;
+}
+button{
+  height: 40px;
+  width: 150px;
+  border:double 5px;
+  border-radius: 30px;
+
+}
+div{
+box-shadow: 60px -16px #9DD6DF;
+border-radius: 40px;
+padding: 10px;
+margin-top: 20px;
+}
+#pr1{
+  margin-left: 100px;
+}
+#pr2{
+  margin-left: 600px;
+}
+#pr3{
+margin-left: 100px;
+}
+#second{
+  background-image: url("back3.jpeg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  height:90%;
+  width:100%
+}
+#Certifications:hover{
+  background-color: #90C8AC;
+  width:400px;
+  border-radius: 10% 25%;
+}
+#contact{
+border-radius: 10% 30% 50% 40%;
+}
+p{
+  border-radius: 20px;
+  padding: 10px;
+  width:350px;
+}
+
+.skillsl{
+  animation :buttonright 1.5s;
+  background-color: #e75a41;
+}
+.skillsr{
+  animation: buttonright 2.5s;
+  background-color: #d2d741;
+}
+.skillsl1{
+  animation :buttonright 3.5s;
+  background-color: #53cd43;
+}
+.skillsr1{
+  animation: buttonright 4.5s;
+  background-color: #37a1b6;
+}
+.skillsl2{
+  animation :buttonright 5.5s;
+  background-color: #863eb3;
+}
+
+footer{
+  padding-top: 15px;
+  background-color: black;
+  color:white;
+  padding-bottom: 15px;
+  border-radius: 10% / 50%;
+}
+@keyframes buttonleft {
+  from{
+    transform: translateX(-300px);
+  }
+  to{
+    transform: translateX(0px);
+  }
+}
+@keyframes buttonright {
+  from{
+    transform: translateX(300px);
+  }
+  to{
+    transform: translateX(0px);
+  }
+}
+.up{
+  animation: buttonleft 2.5s;
+  background-color: #dfc79d;
+  animation-delay: 15s;
+
+}
+.down{
+  animation: buttonleft 2.5s;
+  background-color: #d0df9d;
+  animation-delay: 17s;
+}
+@keyframes paraup {
+  from{
+    transform: translateX(300px);
+  }
+  to{
+    transform: translateX(0px);
+  }
+}
+@keyframes paradown {
+  from{
+    transform: translateX(300px);
+  }
+  to{
+    transform: translateX(0px);
+  }
+}
