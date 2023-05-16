@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Sacramento&family=Ubuntu&display=swap');
+body {
+  background-color: aqua;
+    font-family: Arial, sans-serif;
+    padding-right: 20%;
+    padding-top: 5%;
+    align-items: center;
+    border-radius: 20% 40% / 50% 30% ;
+    ;
+  }
+  
+  .converter {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
+  }
+  img{
+    height:100%;
+    width:100%
+  }
+
+  .converter1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 70px;
+  }
+  
+  .box {
+    width: 40px;
+    height: 25px;
+    background-color: #dd9898;
+    margin: 0 10px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .box:hover {
+    background-color: #aaf;
+  }
+  
+  input[type="number"], input[type="text"], button {
+    padding: 10px;
+    font-size: 16px;
+  }
+  
+  select{
+    width: 150px;
+    height: 50px;
+  }
+  button {
+    background-color: #4caf50;
+    color: white;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.6s ease;
+  }
+  
+  button:hover {
+    background-color: #45a049;
+  }
+  div{
+    background-color:#5c53a4;
+    width: 300px;
+    padding-left: 80px;
+    padding-right: 80px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    border-top-width: thick;
+    margin-left: 250px;
+    margin-top: 10px;
+    border: solid 2px;
+    border-radius: 20% 40% / 50% 30% ;
+    border-color: #eeecf2;
+  
+  }
+  
